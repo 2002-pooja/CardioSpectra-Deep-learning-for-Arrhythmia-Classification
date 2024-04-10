@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		.navbar{
+			margin: 0px;
+			padding:10px;
+			background-color:red;
+			opacity:0.5;
+			font-color:black;
+			font-family:'Roboto',sans-serif;
+			font-style: italic;
+			border-radius:15px;
+			font-size:30px;
+		}
+		a{
+			color:grey;
+			float:right;
+			text-decoration:none;
+			font-style:normal;
+			padding-right:20px;
+		}
+		a:hover{
+			background-color:black;
+			color:white;
+			border-radius:15px;0
+			font-size:30px;
+			padding-left:10px;
+		}
+
+		img{
+			width:550px;
+			height:400px;
+			padding:10px;
+			margin-top:0px;
+		}
+		img:hover{
+			border-radius:100px;
+			border-color:grey;
+			border-shadow:10px;
+		}
+		body{
+			background-color:none;
+			background-size: cover;
+		}
+		h1{
+			font-size:100px;
+			text-align:center;
+			color:white;
+			font-style:italic;
+			font-weight:bolder;
+		}
+		h2{
+			font-size:50px;
+			text-align:center;
+			color:blue;
+			font-style:italic;
+			font-weight:bolder;
+		}
+		div{
+			margin-left:50px;
+		}
+		img{
+			width:1100px;
+			height:600px;
+			padding:10px;
+			margin-top:0px;
+		}
+		img:hover{
+			border-radius:100px;
+			border-color:grey;
+			border-shadow:10px;
+		}
+		</style>
+		<title>Information about Arrhythmia Classification </title>
+	</head>
+	<body>
+		<div class="navbar">
+			<a href="/upload" >Predict</a>
+			<a href="/info">Info</a>
+			<a href="/about">Home</a>
+		<br>
+		</div>
+		<div>
+		<h1><u><font color = 'red'>ECG</font></u></h1>
+		<h2>Electrocardiogram</h2>
+		 <div>
+		<center>
+		<span><img src="../static/normal.jpg" title="normal"></span>
+		<span><img src="../static/vf.jpg" title="Ventricular Fibrillation"></span>
+		<span><img src="../static/pac.jpg" title="Premature Atrial Contraction"></span>
+		<span><img src="../static/pvc.jpg" title="Premature Ventricular Contraction"></span>
+		<span><img src="../static/rbbb.jpg" title="Right Bundle Branch Block"></span>
+		<span><img src="../static/lbbb.jpg" title="Left Bundle Branch Block"></span>
+		</center>
+		</div>
+        </div>
+	</body>
+</html>
